@@ -1,0 +1,15 @@
+
+<div id="div4">
+      <p>Siga-nos nas redes sociais!</p>
+</div>
+
+ <td> 
+          
+            <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          </td>
+          <td>
+            <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          </td>
+          <td>
+            <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+          </td>
