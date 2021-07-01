@@ -1,0 +1,8 @@
+1. Bug: Texto do rodapé não está centralizado
+
+git commit -m "Centralizei o texto do rodapé, utilizando text-align"
+___________________________________
+
+2. Bug: Botão "voltar"está muito grande
+
+git commit -m "Arrumei o tamanho do botão voltar, utilizando width"
