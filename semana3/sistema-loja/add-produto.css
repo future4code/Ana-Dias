@@ -3,13 +3,11 @@ body {
   border-style: ridge;
   border-width: 10px;
   border-color: rgb(49, 8, 48);
-  border-radius: 8px;
   padding: 10px;
   margin: auto;
   text-align: center;
   font-family: Arial;
 }
-
 #div1 {
   background-color: rgb(143, 85, 177);
   border-style: ridge;
@@ -21,9 +19,8 @@ body {
   text-align: center;
   font-family: Arial;
 }
-/* menu */
 #div2 {
-  background-color: rgb(143, 85, 177);
+  background-color: rgb(154, 126, 170);
   border-style: ridge;
   border-width: 2px;
   border-color: rgb(49, 8, 48);
@@ -32,19 +29,19 @@ body {
   width: 900px; /*comprimento do menu*/
   margin: auto;
   text-align: center;
-  font-family: Helvetica;
+  font-family: Arial;
 }
 #div3 {
+  background-color: rgb(154, 126, 170);
+  width: 1300px;
+  border: 2px solid rgb(49, 8, 48);
+  padding: 10px;
+  margin: 1px;
+  display: inline-block;
   text-align: center;
-  style= "font-size:10px;"
-  border: 2px solid black;
-  border-radius: 8px;
+  font-family: Arial;
 }
-#td1{
-  height: 50px;
-  width: 50px;
-}
-#td2{
-  height: 50px;
-  width: 50px;
+#botao {
+  /*tentativa de mudar a cor do botão*/
+  background-color: rgb(49, 8, 48);
 }

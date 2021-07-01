@@ -1,0 +1,10 @@
+body {
+  background-color: rgba(156, 121, 202, 0.452);
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(49, 8, 48);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
