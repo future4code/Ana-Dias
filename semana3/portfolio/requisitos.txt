@@ -1,0 +1,70 @@
+1. texto escrevendo quem sou eu
+2. foto minha (opcional)
+3. Lista de instituições de ensino e empregadores previos (incluir labenu)
+4. Galeria de projetos de software que você trabalhou (uma pag pra cada projeto)
+5. Lista de habilidades que possui (técnicas e comportamentais). Para cada habilidade, colocar um breve texto descrevendo um ponto forte e justificando.
+6. Form pra contato (nome, email e texto)
+7. Lista de redes sociais e links para contato.
+8. Menu na parte superior da tela com links para as demais áreas do portfolio.
+9. footer
+
+body {
+  
+}
+
+#cabecalho {
+  background-color: rgba(200, 214, 214, 0.575);
+  height: 120px;
+  width: auto;
+  text-align: center;
+  font-family: Fantasy;
+}
+#nome {
+  color: rgba(22, 165, 165, 0.835);
+  font-family: Fantasy;
+}
+#profissao {
+  color: rgba(22, 165, 165, 0.835);
+  font-family: Fantasy;
+}
+#menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li a:hover {
+  background-color: #111;
+  display: inline;
+  background-color: #333;
+  height: 60px;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  font-family: Fantasy;
+}
+
+#coluna1texto {
+  display: inline-block;
+  background-color: springgreen;
+  height: 500px;
+  width: 700px;
+  padding: 20px;
+  float: right;
+  border: 5px solid green;
+  font-family: Fantasy;
+}
+#imagem1 {
+  hover {
+    opacity: 0.5;
+  }

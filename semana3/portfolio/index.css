@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border-radius: 80px;
+  margin: 0;
+}
+
+#cabecalho {
+  background-image: url(marmore.jpg);
+  background-color: hsl(0, 0%, 95%);
+  width: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu {
+  float: center;
+  display: block;
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.botao {
+  border-radius: 50px;
+  border: 1px solid #e7dedb;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 13px;
+  margin: 2px 1px;
+}
+#coluna1 {
+  background-color: rgb(187, 100, 187);
+  float: center;
+  width: auto;
+  padding: 15px;
+}
+#coluna2 {
+  float: right;
+  width: 50%;
+  padding: 15px;
+}
+
+#footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  width: auto;
+  height: 100px%;
+  float: center;
+  color: black;
+}
