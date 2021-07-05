@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background-color: #f2d0e0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#item2 {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 100px;
+  justify-items: center;
+  box-shadow: 5px 5px 3px 0px rgba(169, 169, 169, 1);
+}
