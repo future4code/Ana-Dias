@@ -1,0 +1,19 @@
+> 1. TELA PRINCIPAL
+
+Mostra uma lista dos vídeos dispostas em uma grade 4x4. Cada item da lista deve possuir uma imagem e o nome referentes ao vídeo.
+
+> 2. TELA DE DETALHE DO VIDEO
+
+Ao clicar num vídeo da lista da Tela Principal, deve abrir a Tela de Detalhe de vídeo. Nesta tela, devem ser mostrados o título do vídeo e o arquivo de vídeo em si.
+
+> 3. LAYOUTS GERAIS
+
+As duas telas devem possuir um header (cabeçalho) e um footer (rodapé). O header deve conter o título do site e uma barra de busca. Já o footer, uma mensagem qualquer (invente!) 
+
+---> Requisitos mínimos <---
+
+- Tela Principal com 8 itens em uma grade 4x4;
+
+- 2 dos itens da lista  devem ser clicáveis e levar para 2 Telas de Detalhe do Vídeo com vídeos distintos
+
+- O vídeo, na tela acima, deve ser funcional (com controles) e tocado automaticamente ao entrar na página interna
