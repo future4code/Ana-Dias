@@ -1,0 +1,43 @@
+* {
+  /*altamente recomendavel fazer isso aqui pra ficar legal*/
+  margin: 0;
+  padding: 0;
+}
+.body {
+}
+.header {
+  /* ainda não entendi bem pq precisa de header*/
+  display: flex;
+}
+.tudao {
+  width: 100%;
+}
+.icone {
+  /*iconezinho só pra enfeitar*/
+  height: 2em;
+  margin: 12px;
+}
+nav {
+  /* aqui eu fiz o navegador que incluirá logo, nome e busca*/
+  display: flex;
+  background-color: #da8a2f;
+  padding: 10px;
+  height: 60px; /*altura mesmo*/
+  /* justify-content: space-between; se eu colocasse isso aqui o h3(HTML) iria lá para a direita, mas nao sei pq*/
+}
+.videos {
+  display: flex;
+  flex-direction: column; /*fica tudo na vertical grandao*/
+  align-items: center;
+  /*text-align: center;*/
+  justify-content: space-between;
+  width: 100%;
+  grid-template-columns: 200px 200px;
+}
+.footer {
+  background-color: rgb(177, 129, 40);
+  display: flex;
+  padding: 60px;
+  height: 60px;
+  justify-content: center;
+}
