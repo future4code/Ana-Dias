@@ -2,7 +2,7 @@ import './App.css'
 import styled from 'styled-components'
 import React from 'react'
 import Header from './Componentes/Header'
-import PlaylistCreationForm from './Componentes/PlaylistCreationForm'
+import PlaylistCreationPage from './Componentes/PlaylistCreationPage'
 import PlaylistManagerPage from './Componentes/PlaylistManagerPage'
 
 /*começar fazendo um container que englobe o header e o corpo para depois ver como será o display deles*/
@@ -27,8 +27,8 @@ class App extends React.Component {
 
     render () {
       const renderCurrentPage = () => {
-        if (this.state.currentPage === "playlistCreationForm") {
-          return <PlaylistCreationForm />
+        if (this.state.currentPage === "playlistCreationPage") {
+          return <PlaylistCreationPage />
         } else if (this.state.currentPage === "playlistManagerPage") {
           return <PlaylistManagerPage />
         }

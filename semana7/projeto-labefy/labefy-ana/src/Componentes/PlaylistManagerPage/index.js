@@ -1,17 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const PlaylistManagerPageContainer = styled.div `
+
+const PlaylistManagerContainer = styled.div `
  
 `
 
 
-const PlaylistManagerPage = () => {
+class PlaylistManagerPage extends React.Component {
+    state = {
+
+    }
+    render(){
     return (
-        <PlaylistManagerPageContainer>
-         ManagerPage!
-        </PlaylistManagerPageContainer>
+
+        <PlaylistManagerContainer>
+            Playlists
+        </PlaylistManagerContainer>
     )
+    } 
 }
 
 export default PlaylistManagerPage

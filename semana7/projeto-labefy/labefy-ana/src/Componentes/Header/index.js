@@ -18,7 +18,7 @@ const Header = (props) => {
         <HeaderContainer>
           <h1>Labefy-Ana</h1>
           <ButtonsContainer>
-            <button onClick={() => props.changePage("playlistCreationForm")} >Cadastrar Playlist </button>
+            <button onClick={() => props.changePage("playlistCreationPage")} >Cadastrar Playlist </button>
             <button onClick={() => props.changePage("playlistManagerPage")} >Gerenciar Playlists</button>
           </ButtonsContainer>
         </HeaderContainer>
