@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HomePageButtons from './HomePageButtons';
+import HomePageButton from './HomePageButton';
 
 const ContainerHomePage = styled.div`
   background: pink;
@@ -15,7 +15,7 @@ function HomePage() {
   return (
     <ContainerHomePage>
         <h1>LabeX</h1>
-        
+        <HomePageButton/>
     </ContainerHomePage>
     
   );

@@ -1,12 +1,13 @@
 import React from 'react';
-import HomePage from './Pages/HomePage';
-import HomePageButtons from './Pages/HomePageButtons';
+import './App.css';
+import HomePage from './Pages/HomePage/HomePage';
+import ListTripsPage from './Pages/ListTripsPage/ListTripsPage';
 
 function App() {
   return (
     <div>
-        <HomePage/>
-        <HomePageButtons />
+        <HomePage/> 
+       <ListTripsPage />
     </div>
   );
 }
