@@ -4,7 +4,7 @@ export const goToLogin = history => {
 
 //chamo essa função toda vez que eu queira um botão que redirecione para o login
 
-export const goToLogin = history => {
+export const goToSignUp = history => {
   history.push('/cadastro')
 }
 
@@ -12,7 +12,7 @@ export const goToAddRecipes = history => {
   history.push('/adicionar-receita')
 }
 
-export const goToRecipeDetail = history => {
+export const goToRecipeDetail = (history, id) => {
   history.push(`/detalhe/${id}`)
 }
 
